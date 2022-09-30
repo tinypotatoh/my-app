@@ -56,7 +56,7 @@ app.use('/register', (req,res) => {
             token,
         }
     ]
-    console.log(users);
+    
 
     res.send({
         token
