@@ -1,0 +1,39 @@
+nav{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background-color: black;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+nav div p{
+    font-size: 1.2rem;
+}
+
+nav div p span{
+    color: turquoise;
+    font-weight: bold;
+}
+
+nav div p span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,133 @@
+.profile{
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background: linear-gradient(20deg,rgba(222, 189, 82, 0.436), rgba(64, 224, 208, 0.477), rgba(0, 0, 0, 0.416)) ;
+}
+
+.profile .left{
+    float: left;
+    height: 100%;
+    width: 30%;
+    color: white;
+    margin: auto;
+    padding: 50px;
+}
+
+.profile img{
+    width:150px;
+    height:150px;
+    border-radius: 50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+
+.profile .left h1{
+    text-align: center;
+    font-size: 2.0rem;
+    margin-top: 15px;
+}
+
+.profile .left h2{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.profile .left h3{
+    text-align: center;
+    font-size: 1.0rem;
+    color: rgba(128, 128, 128, 0.682);
+}
+
+.profile .left .icon{
+    width: 33%;
+    margin: 15px 0;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.profile .left button{
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.profile .left button:hover{
+    color: black;
+}
+
+.profile .right{
+    height: 100%;
+    width: 70%;
+    float: right;
+    margin: auto;
+    padding: 50px;
+}
+
+.profile .right form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile .right form label{
+    font-size: 1.0rem;
+}
+
+.profile .right form input{
+    width: 80%;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 8px;
+    outline: none;
+}
+
+.profile .right form input:focus{
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px turquoise;
+}
+
+.profile .right form .gender{
+    width: 80%;
+    padding: 10px 8px;
+    font-size: 1.0rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.profile .right button{
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    .profile .right{
+        float: right;
+        width: 70%;
+        height: 100%;
+        margin-left: 50px;
+    }
+
+}
